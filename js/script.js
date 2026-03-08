@@ -41,3 +41,18 @@ function resetFilters() {
 
 applyFiltersButton.addEventListener("click", filterBooks);
 resetFiltersButton.addEventListener("click", resetFilters);
+
+const cartButtons = document.querySelectorAll(".cart-btn");
+const detailsButtons = document.querySelectorAll(".details-btn");
+
+cartButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert("Book added to cart.");
+    });
+});
+
+detailsButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert("Book details coming soon.");
+    });
+});
