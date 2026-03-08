@@ -1,0 +1,32 @@
+/* Issue 1: Header and Hero Banner */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url("../images/blueBookBanner.png");
+    background-size: cover;
+    background-position: center;
+
+    padding: 40px;
+    color: white;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.hero-banner {
+    max-width: 600px;
+}
+
+.hero-banner h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    font-size: 14px;
+    line-height: 1.6;
+}
