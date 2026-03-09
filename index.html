@@ -67,9 +67,11 @@
                 <button id="resetFilters">Reset</button>
         </aside>
 
-        <!--Issue 5: Main Book Section-->
+        <!--Issue 4: Main Book Section-->
 
-        <section id="featured-books" class="book-section">
+    <div class="main-content-area">
+
+    <section id="featured-books" class="book-section">
     <h2>Featured Books</h2>
 
     <div class="book-grid" id="bookGrid">
@@ -125,6 +127,67 @@
             </div>
         </section>
 
+
+        <!--Issue 5: Librarians Choice Section/Used Book Section-->
+        <div class="secondary-sections">
+
+            <section id="librarians" class="sub-section librarians-choice-section">
+                <h2>Librarian Recommendations</h2>
+                
+                <img src="images/tatteredReadsLibrariansChoiceBanner.png" alt="Librarian recommended books banner" class="section-banner">
+
+                <div class="mini-book-grid">
+                    <article class="book-card" data-category="fiction" data-price="16" data-shipping="3">
+                        <div class="book-image-placeholder">Book Cover Placeholder</div>
+                        <h3>Whispers in the Old Oak</h3>
+                        <p class="book-price">$16.00</p>
+                        <div class="book-buttons">
+                            <button class="cart-btn">Add to Cart</button>
+                            <button class="details-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <article class="book-card" data-category="fantasy" data-price="22" data-shipping="4">
+                        <div class="book-image-placeholder">Book Cover Placeholder</div>
+                        <h3>Moonlit Ring</h3>
+                        <p class="book-price">$22.00</p>
+                        <div class="book-buttons">
+                            <button class="cart-btn">Add to Cart</button>
+                            <button class="details-btn">View Details</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="used-books" class="sub-section used-book-sale-section">
+                <h2>Used Book Sale</h2>
+
+                <img src="images/usedBookSaleBanner.png" alt="Used book sale banner" class="section-banner">
+
+                <div class="mini-book-grid">
+                    <article class="book-card" data-category="nonfiction" data-price="8" data-shipping="2">
+                        <div class="book-image-placeholder">Book Cover Placeholder</div>
+                        <h3>Old Town Librarian</h3>
+                        <p class="book-price">$8.00</p>
+                        <div class="book-buttons">
+                            <button class="cart-btn">Add to Cart</button>
+                            <button class="details-btn">View Details</button>
+                        </div>
+                    </article>
+
+                    <article class="book-card" data-category="comics" data-price="6" data-shipping="2">
+                        <div class="book-image-placeholder">Book Cover Placeholder</div>
+                        <h3>Retro Heroes Galore</h3>
+                        <p class="book-price">$6.00</p>
+                        <div class="book-buttons">
+                            <button class="cart-btn">Add to Cart</button>
+                            <button class="details-btn">View Details</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
     </main>
 
 <script src="js/script.js"></script>

@@ -61,7 +61,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Issue 2: Navigation Bar */ 
+/* Issue 3: Sidebar Filters */ 
 
 .content-layout {
     display: grid;
@@ -70,6 +70,14 @@ html {
     padding: 30px;
     background-color: #f8f5ef;
 }
+
+.main-content-area {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ^ Update for Issue 5 */
 
 .sidebar {
     background-color: #0b1d3a;
@@ -120,7 +128,7 @@ html {
     background-color: #ddb12f;
 }
 
-/* Issue 5: Main Book Section */
+/* Issue 4: Main Book Section */
 
 .book-section {
     padding: 10px;
@@ -207,4 +215,46 @@ html {
 
 .details-btn:hover {
     background-color: #ddb12f;
+}
+
+/* Issue 5: Librarians Choice Section/Used Book Sections */
+
+.secondary-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sub-section {
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #d9d1c3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.sub-section h2 {
+    margin-bottom: 15px;
+    color: #0b1d3a;
+    font-size: 24px;
+}
+
+.librarians-choice-section {
+    background-color: #f4efe4;
+}
+
+.used-book-sale-section {
+    background-color: #fdf7e3;
+}
+
+.mini-book-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.section-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
